@@ -6,8 +6,8 @@
 void setup() 
 {
   Serial.begin(115200);
-  pinMode(PIN_PIR,INPUT);  // set pin 7 input
-  pinMode(PIN_RELAY,OUTPUT); // set pin 2 output
+  pinMode(PIN_PIR,INPUT);  // set pin D2 input
+  pinMode(PIN_RELAY,OUTPUT); // set pin D5 output
   digitalWrite(PIN_RELAY,LOW); // turn off relay
 }
 
